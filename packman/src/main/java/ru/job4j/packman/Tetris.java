@@ -9,7 +9,6 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.shape.Line;
 
-
 public class Tetris extends Application {
 
     @Override

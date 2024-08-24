@@ -1,18 +1,11 @@
 package ru.job4j.packman;
 
 import javafx.application.Application;
-import javafx.event.Event;
 import javafx.scene.Scene;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import javafx.scene.shape.Rectangle;
 import javafx.scene.control.Button;
 import javafx.scene.shape.Line;
 
@@ -26,7 +19,6 @@ public class Tetris extends Application {
         stage.setScene(scene);
         stage.show();
         stage.setTitle("Tetris");
-        // Control panel
         Pane controlPanel = new Pane();
         controlPanel.setPrefSize(500, 100);
         controlPanel.setStyle("-fx-background-color: #f0f0f0;");
